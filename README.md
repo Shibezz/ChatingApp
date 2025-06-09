@@ -1,16 +1,30 @@
-# flutter_application_1
+# Flutter Chatting App
 
-A new Flutter project.
+A real-time chatting app built with Flutter and Firebase, featuring Google Sign-In authentication and seamless messaging.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+This Flutter app allows users to sign in using their Google account and chat in real-time with other users. It uses Firebase Authentication for user login and Firebase Firestore as the backend database to store and sync chat messages instantly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Google Sign-In Authentication  
+- Real-time messaging powered by Firebase Firestore  
+- User-friendly and responsive Flutter UI  
+- Supports multiple simultaneous users  
+- Displays message timestamps and sender info  
+
+---
+
+## Architecture
+
+- **Flutter Frontend:** UI and app logic built with Flutter widgets  
+- **Firebase Authentication:** Handles user login via Google OAuth  
+- **Cloud Firestore:** NoSQL database for storing chat messages in real-time  
+- **Firebase SDK:** Integrates backend services with Flutter app  
+
+---
